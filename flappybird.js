@@ -31,7 +31,7 @@ let bottomPipeImg;
 
 
 //physics
-let velocityX = -1.0;
+let velocityX = window.innerWidth < 600 ? -0.5 : -0.7;
 let velocityY = 0;
 let gravity = 0.1;
 
